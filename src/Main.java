@@ -13,12 +13,12 @@ public class Main {
 
         System.out.print("Qual produto você vai comprar?: ");
         produto = scanner.nextLine();
-        System.out.print("Qual o valor de cada: ");
+        System.out.print("Qual o valor?: ");
         valor = scanner.nextDouble();
         System.out.print("Quantos você comprou?: ");
         quantidade = scanner.nextInt();
         total = valor * quantidade;
-        System.out.println("O total da sua compra foi: "+ moeda + total);
+        System.out.println("O total da sua compra foi: " + moeda + total);
 
 
         scanner.close();
